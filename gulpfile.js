@@ -165,4 +165,4 @@ gulp.task('uglify-lib', function() {
 });
 
 //gulp本来のタスクを登録する
-gulp.task('default', ['watch','serve','browser-sync', 'imagemin']);
+gulp.task('default', ['watch','serve','browser-sync', 'imagemin','jade','sass','uglify']);
