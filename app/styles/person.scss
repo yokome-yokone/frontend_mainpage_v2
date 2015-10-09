@@ -1,0 +1,39 @@
+#person {
+	position: relative;
+	height: 100%;
+	background-color: #f5e7c4; //←消してok
+
+	//パーソンの中身
+	//自分のところのscssを貼付ける ※body{}は加えない
+	.test {
+		text-align: center;		
+		color: black;
+        font-size: 48px; 
+        padding:80px;
+		font-family: "ＭＳ 明朝",serif;
+    }
+    .person{
+    	.face{
+    		display: flex;
+    		justify-content: center;
+    		section{ 
+     			margin: 10px;
+			    padding: 15px;
+			    text-align: center;
+			    font-family: "ＭＳ 明朝",serif;
+
+    		 }
+    	}
+    	.face2{
+    		display: flex;
+    		justify-content: center;
+    		section{ 
+     			margin: 10px;
+			    padding: 15px;
+			    text-align: center;
+			    font-family: "ＭＳ 明朝",serif;
+    		 }	 
+
+		}
+	}
+}

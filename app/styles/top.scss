@@ -1,0 +1,85 @@
+#header{
+	header{
+		z-index: 1;
+		position: fixed;
+		margin-bottom: 0;
+		margin-right: -15px;
+		margin-left: -15px;
+		a{
+		float: left;
+		height: 50px;
+		padding: 15px 15px;
+		font-size: 18px;
+		line-height: 20px;
+		}
+		img{
+			width: auto;
+	    max-height: 80px;
+	    margin: 12px 50px 0 50px;
+		}
+		nav{
+			padding-top: 0px;
+			padding-right: 15px;
+    	padding-left: 15px;
+			padding-bottom: 0;
+	    margin: 30px 50px 0 50px;
+	    float: right;
+	    background-color: rgba(52, 152, 219,.3);
+	    border-radius: 5px;
+			position: relative;
+			float: right;
+			min-height: 50px;
+			ul{
+				font-size: 0;
+				padding-top: 0px;
+		    margin-right: -16px;
+		    float: right;
+				float: right !important;
+				padding-left: 0;
+		    margin-bottom: 0;
+		    list-style: none;
+				margin-top: 0;
+				display: block;
+		    list-style-type: disc;
+		    -webkit-margin-before: 1em;
+		    -webkit-margin-after: 1em;
+		    -webkit-margin-start: 0px;
+		    -webkit-margin-end: 0px;
+		    -webkit-padding-start: 40px;
+			}
+			li{
+				display: inline-block;
+				font-size: 24;
+				width: 25%;
+				float: left;
+		    margin-top: 0px;
+		    font-size: 16px;
+				position: relative;
+    		display: block;
+			}
+		}
+	}
+}
+#top {
+	position: relative;
+	height: 100%;
+
+	//トップの中身
+	//自分のところのscssを貼付ける ※body{}は加えない
+
+	.gigapan {
+			min-height: 100%;
+			margin-bottom: 60px;
+			position: relative;
+			padding-bottom: 56.25%;
+			padding-top: 25px;
+			overflow: auto;
+			iframe {
+			position: fixed;
+			top: 0;
+			left: 0;
+			width: 100%;
+			height: 100%;
+		}
+	}
+}
